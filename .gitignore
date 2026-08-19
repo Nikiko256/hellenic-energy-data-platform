@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environment and secrets
+.venv/
+.env
+
+# Runtime data
+data/bronze/
+data/silver/
+data/gold_exports/
+data/warehouse/
+*.duckdb
+*.duckdb.wal
+
+# Logs and generated artifacts
+logs/
+artiifacts/
+
+# Test and qualitu-tool output
+.pytest_cache/
+ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
