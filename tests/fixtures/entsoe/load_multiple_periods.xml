@@ -1,0 +1,21 @@
+<Publication_MarketDocument xmlns="urn:iec62325.351:tc57wg16:451-6:load:1:0">
+  <mRID>load-multiple-periods-document</mRID>
+  <TimeSeries>
+    <Period>
+      <timeInterval>
+        <start>2025-01-01T00:00Z</start>
+        <end>2025-01-01T01:00Z</end>
+      </timeInterval>
+      <resolution>PT60M</resolution>
+      <Point><position>1</position><quantity>5000.0</quantity></Point>
+    </Period>
+    <Period>
+      <timeInterval>
+        <start>2025-01-01T01:00Z</start>
+        <end>2025-01-01T02:00Z</end>
+      </timeInterval>
+      <resolution>PT60M</resolution>
+      <Point><position>1</position><quantity>5100.0</quantity></Point>
+    </Period>
+  </TimeSeries>
+</Publication_MarketDocument>

@@ -1,0 +1,16 @@
+<m:Publication_MarketDocument xmlns:m="urn:iec62325.351:tc57wg16:451-6:load:1:0">
+  <m:mRID>load-15-minute-document</m:mRID>
+  <m:TimeSeries>
+    <m:Period>
+      <m:timeInterval>
+        <m:start>2025-10-01T00:00Z</m:start>
+        <m:end>2025-10-01T01:00Z</m:end>
+      </m:timeInterval>
+      <m:resolution>PT15M</m:resolution>
+      <m:Point><m:position>1</m:position><m:quantity>5000.0</m:quantity></m:Point>
+      <m:Point><m:position>2</m:position><m:quantity>5100.0</m:quantity></m:Point>
+      <m:Point><m:position>3</m:position><m:quantity>5200.0</m:quantity></m:Point>
+      <m:Point><m:position>4</m:position><m:quantity>5300.0</m:quantity></m:Point>
+    </m:Period>
+  </m:TimeSeries>
+</m:Publication_MarketDocument>

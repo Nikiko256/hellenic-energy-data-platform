@@ -1,0 +1,15 @@
+<Publication_MarketDocument xmlns="urn:iec62325.351:tc57wg16:451-6:load:1:0">
+  <mRID>load-missing-position-document</mRID>
+  <TimeSeries>
+    <Period>
+      <timeInterval>
+        <start>2025-01-01T00:00Z</start>
+        <end>2025-01-01T01:00Z</end>
+      </timeInterval>
+      <resolution>PT60M</resolution>
+      <Point>
+        <quantity>5000.0</quantity>
+      </Point>
+    </Period>
+  </TimeSeries>
+</Publication_MarketDocument>
